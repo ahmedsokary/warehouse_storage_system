@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aca68d8250954e79bba1fd299368575e" Name="Diagram1">
+        <EntityTypeShape EntityType="EfProjectModel.ClientPermission" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.ClientPermissionDetail" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.customer" Width="1.5" PointX="1.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.MoveProduct" Width="1.5" PointX="6" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.product" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.ProductMeasure" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.store" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.StoredProduct" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.supplier" Width="1.5" PointX="1.5" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.SupplyPermision" Width="1.5" PointX="0.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.SupplyPermissionDetail" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EfProjectModel.sysdiagram" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="EfProjectModel.FK_ClientPermission_customer" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_ClientPermissionDetails_ClientPermission" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_ClientPermissionDetails_product" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_ClientPermissionDetails_store" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_MoveProduct_product" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_MoveProduct_store" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_MoveProduct_store1" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_ProductMeasure_product" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_StoredProduct_product" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_SupplyPermissionDetails_product" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_StoredProduct_store" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_SupplyPermissionDetails_store" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_SupplyPermision_supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="EfProjectModel.FK_SupplyPermissionDetails_SupplyPermision" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
